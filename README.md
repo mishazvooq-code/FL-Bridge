@@ -22,7 +22,7 @@
 4. Заберите готовый `.vst3` из раздела **Artifacts**.
 
    ### Локальная сборка (Windows)
-```bash
+   ```bash
 git clone [https://github.com/ВАШ_НИК/FL-Bridge.git](https://github.com/ВАШ_НИК/FL-Bridge.git)
 cd FL-Bridge
 cmake -B build -A x64
