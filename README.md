@@ -21,7 +21,7 @@
 3. Запустите workflow **Build VST3**.
 4. Заберите готовый `.vst3` из раздела **Artifacts**.
 
-   ### Локальная сборка (Windows)
+  ### Локальная сборка (Windows)
 ```bash
 git clone [https://github.com/ВАШ_НИК/FL-Bridge.git](https://github.com/ВАШ_НИК/FL-Bridge.git)
 cd FL-Bridge
@@ -29,10 +29,4 @@ cmake -B build -A x64
 cmake --build build --config Release```
 
 
-На выходе у вас появится папка FL-Bridge.vst3. Целиком положите её в C:\Program Files\Common Files\VST3\
-
-### ВАЖНО: для работы плагина нужно иметь установленную FL Studio
-
-⚠️ Дисклеймер
-Проект создается в исследовательских и образовательных целях. Родные плагины FL Studio завязаны на внутренние зависимости Image-Line, поэтому некоторые сложные плагины могут работать нестабильно. Всегда сохраняйте сессию в DAW перед проверкой! 
 
