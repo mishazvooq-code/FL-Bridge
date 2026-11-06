@@ -26,7 +26,8 @@
 git clone [https://github.com/ВАШ_НИК/FL-Bridge.git](https://github.com/ВАШ_НИК/FL-Bridge.git)
 cd FL-Bridge
 cmake -B build -A x64
-cmake --build build --config Release```
+cmake --build build --config Release
+```
 
 На выходе у вас появится папка FL-Bridge.vst3. Целиком положите её в C:\Program Files\Common Files\VST3\
 
