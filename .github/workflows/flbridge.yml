@@ -1,0 +1,23 @@
+name: Build VST3
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Configure
+        run: cmake -B buil"d -A x64
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - uses: actions/upload-artifact@v6
+        with:
+          name: FL-Bridge-VST3
+          path: build/FLBridgeProbe_artefacts/Release/VST3/
+          
